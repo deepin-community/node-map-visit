@@ -1,0 +1,38 @@
+node-map-visit (1.0.0-2) unstable; urgency=medium
+
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-extend-shallow and
+      node-object-visit.
+    + node-map-visit: Drop versioned constraint on node-object-visit in Depends.
+  * Bump debhelper from old 12 to 13.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 Aug 2021 20:50:26 +0100
+
+node-map-visit (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump standards version
+  * Change section to javascript
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 11 Jan 2018 13:20:21 +0530
+
+node-map-visit (0.1.5-2) unstable; urgency=medium
+
+  * Add node-should to builddeps (Closes: #842669)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 31 Oct 2016 15:13:13 +0530
+
+node-map-visit (0.1.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #841042)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 17 Oct 2016 12:29:57 +0530

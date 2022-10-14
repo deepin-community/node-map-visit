@@ -1,0 +1,5 @@
+Tests: require
+Depends: node-map-visit
+
+Test-Command: mocha -R spec
+Depends: @, @builddeps@
